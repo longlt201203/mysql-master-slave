@@ -1,0 +1,4 @@
+CHANGE MASTER TO
+  MASTER_HOST='master',
+  MASTER_USER='repl',
+  MASTER_PASSWORD='Repl@123';
