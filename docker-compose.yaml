@@ -33,6 +33,8 @@ services:
       - ./slave-conf/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - mysql_net
+    depends_on:
+      - master
 
 networks:
   mysql_net:
